@@ -11,7 +11,8 @@ React uses components (component-based architecture)
 ......*Using the render() function will create a virtual div or other html element
 ......*That same render() component can be used later to update the same element with different info. ==fast
 
---<!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -29,10 +30,12 @@ React uses components (component-based architecture)
 		<script src="../vendors/react-dom.js"></script>
 		<script src="../scripts/components.js"></script>
 	</body>
-</html>--
+</html>
+```
 
-
---ReactDOM.render(
+```javascript
+ReactDOM.render(
   React.DOM.div(null, "Hello React World!"),
   document.getElementById("HelloWorld")
-);--
+);
+```
