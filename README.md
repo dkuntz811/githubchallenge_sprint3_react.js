@@ -10,3 +10,29 @@ React uses components (component-based architecture)
 ......*This allows the application to be fast
 ......*Using the render() function will create a virtual div or other html element
 ......*That same render() component can be used later to update the same element with different info. ==fast
+
+--<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>React.js Hello World</title>
+		<script src="../vendors/react.js"></script>
+		<script src="../vendors/react-dom.js"></script>
+		<script src="../scripts/components.js"></script>
+	</head>
+	<body>
+		<h1>React.js Hello World Below</h1>
+		<div id="HelloWorld">
+
+		</div>
+		<script src="../vendors/react.js"></script>
+		<script src="../vendors/react-dom.js"></script>
+		<script src="../scripts/components.js"></script>
+	</body>
+</html>--
+
+
+--ReactDOM.render(
+  React.DOM.div(null, "Hello React World!"),
+  document.getElementById("HelloWorld")
+);--
