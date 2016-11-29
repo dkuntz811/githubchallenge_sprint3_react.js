@@ -40,4 +40,5 @@ ReactDOM.render(
 );
 ```
 
-Test. 
+--JSX allows us to manipulate the DOM without writing HTML code and classes. 
+---writing code within curly braces in JSX gets interpreted as vanilla JS> 
