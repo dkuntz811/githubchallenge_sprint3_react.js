@@ -39,6 +39,5 @@ ReactDOM.render(
   document.getElementById("HelloWorld")
 );
 ```
-yes
 
-Road Trip Commit-Learned a lot at the React meetup last night. 
+Test. 
