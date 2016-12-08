@@ -42,3 +42,8 @@ ReactDOM.render(
 
 --JSX allows us to manipulate the DOM without writing HTML code and classes. 
 ---writing code within curly braces in JSX gets interpreted as vanilla JS> 
+
+##Notes from: Hacker Way: Rethinking Web App Development at Facebook
+https://www.youtube.com/watch?v=nYkdrAPrdcw
+
+###MVC is good for smaller applications that don't require the view to change often. 
