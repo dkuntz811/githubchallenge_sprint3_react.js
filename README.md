@@ -47,3 +47,4 @@ ReactDOM.render(
 https://www.youtube.com/watch?v=nYkdrAPrdcw
 
 MVC is good for smaller applications that don't require the view to change often. 
+##and still is 
